@@ -359,6 +359,10 @@ align-items:center;
 width:100%;
 
 }
+.seo-texto{
+    display: column;
+    padding: 50px;
+}
 
 }
 @media (max-width:768px){
