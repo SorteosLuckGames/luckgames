@@ -85,22 +85,25 @@ background:conic-gradient(
 .footer a:hover{text-decoration:underline;}
 .hero{position:relative;overflow:hidden;}
 .ruleta-inicio{position:absolute;bottom:-465px;left:49.9%;transform:translateX(-50%);z-index:0;pointer-events:none;}
-.ruleta-css{width:900px;height:900px;border-radius:50%;
+.ruleta-css{box-shadow:
+0 0 20px #ff4d00,
+0 0 40px #ff4d00,
+0 0 80px #ff4d00;width:900px;height:900px;border-radius:50%;
 background:conic-gradient(
 #ff4d00 0deg 30deg,
-#222 30deg 60deg,
-#ff4d00 60deg 90deg,
-#222 90deg 120deg,
+#0a0a0a 30deg 60deg,
+#ff7a00 60deg 90deg,
+#0a0a0a 90deg 120deg,
 #ff4d00 120deg 150deg,
-#222 150deg 180deg,
-#ff4d00 180deg 210deg,
-#222 210deg 240deg,
+#0a0a0a 150deg 180deg,
+#ff7a00 180deg 210deg,
+#0a0a0a 210deg 240deg,
 #ff4d00 240deg 270deg,
-#222 270deg 300deg,
-#ff4d00 300deg 330deg,
-#222 330deg 360deg
+#0a0a0a 270deg 300deg,
+#ff7a00 300deg 330deg,
+#0a0a0a 330deg 360deg
 );
-opacity:0.05;
+opacity:0.20;
 animation:girarRuletaInicio 50s linear infinite;}
 @keyframes girarRuletaInicio{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
 .hero h1,
