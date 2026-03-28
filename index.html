@@ -102,9 +102,9 @@ jugadores y fecha de transmisión.
 <div class="eventos-scroll">
 
 <div class="evento-card">
-<h3>Rulet Rux</h3>
+<h3>Rulet Fast</h3>
 <p>15 jugadores</p>
-<p>Premio: S/30</p>
+<p>Premio: S/20</p>
 
 <button class="agotado" disabled>
 Agotado
@@ -112,33 +112,29 @@ Agotado
 
 </div>
 
-<div class="evento-card ticket ">
+<div class="evento-card ">
 <h3>Rulet Rux</h3>
 <p>15 jugadores</p>
 <p>Premio: S/50</p>
-<div class="ruleta">
-<div class="ruleta-centro"></div>
-</div>
-<button class="verEvento"
-data-nombre="Rulet Rux"
-data-edicion="Edición #2"
-data-premio="S/50"
-data-jugadores="15"
-data-costo="S/5">
-Ver evento
-</button>
 
-</div>
-
-
-<div class="evento-card">
-<h3>Rulet Rux</h3>
-<p>30 jugadores</p>
-<p>Premio: S/100</p>
 <button class="agotado" disabled>
 Agotado
 </button>
+</div>
 
+
+<div class="evento-card ticket">
+<h3>Luck Rulet</h3>
+<p>30 jugadores</p>
+<p>Premio: S/100</p>
+<button class="verEvento"
+data-nombre="Luck Rulet"
+data-edicion="Edición #3"
+data-premio="S/100"
+data-jugadores="30"
+data-costo="S/5">
+Ver evento
+</button>
 
 
 
@@ -166,8 +162,7 @@ class="btn-demo">
 <h2> Evento en vivo</h2>
 
 <div>
-"Este evento se está transmitiendo ahora mismo.
-Mira el sorteo en tiempo real."
+"Mira la repetición de este fabuloso evento y anímate a participar en el próximo"
 </div>
 
 </div>
@@ -176,7 +171,7 @@ Mira el sorteo en tiempo real."
 
 <div class="vento-card ticket">
 
-<h3>Wheel of Fortune <span class="en-vivo"><br>● EN VIVO</span></h3>
+<h3>Luck Games - Rulet Rux <span class="en-vivo"><br>● EN VIVO</span></h3>
 
 <div class="ruleta">
 <div class="ruleta-centro"></div>
@@ -440,7 +435,7 @@ function iniciarContador(){
 
 setTimeout(function(){
 
-let premioFinal = 50;
+let premioFinal = 100;
 let contador = 0;
 
 let elemento = document.getElementById("contadorPremio");
