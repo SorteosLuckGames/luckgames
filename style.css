@@ -246,6 +246,34 @@ cursor:pointer;
 .sin-evento{color:#aaa;font-style:italic;text-align:center;margin-top:20px;}
 *{box-sizing:border-box;}
 body{overflow-x:hidden;}
+
+.indicador-scroll{
+font-size:14px;
+color:#aaa;
+margin-bottom:10px;
+animation: moverDerecha 1.5s infinite;
+display:inline-block;
+}
+
+/* animación */
+@keyframes moverDerecha{
+
+0%{
+transform:translateX(0);
+opacity:0.5;
+}
+
+50%{
+transform:translateX(10px);
+opacity:1;
+}
+
+100%{
+transform:translateX(0);
+opacity:0.5;
+}
+
+}
 /* NAVBAR MOVIL */
 
 @media (max-width:768px){
@@ -380,4 +408,17 @@ font-size:14px;
 }
 
 
+}
+@media (max-width:768px){
+.indicador-scroll,
+.flecha-scroll-eventos{
+display:block;
+}
+}
+
+@media (min-width:769px){
+.indicador-scroll,
+.flecha-scroll-eventos{
+display:none;
+}
 }
